@@ -1,0 +1,63 @@
+
+/* Header Section Style Layout */
+* {
+  box-sizing: border-box;
+}
+
+.home-title {
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid black;
+}
+
+.main-nav ul {
+  padding: 0;
+  display: flex;
+}
+
+.main-nav li {
+  padding: 0;
+  list-style: none;
+  font-size:20pt;
+  margin: 10px;
+}
+
+/* 1st Section Style Layout */
+
+.first-section {
+    border-bottom: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.book-title {    
+    font-size: 30pt;
+    margin-top:0;
+}
+
+
+.second-section {
+    
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
