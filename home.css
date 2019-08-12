@@ -31,6 +31,9 @@ header {
 /* 1st Section Style Layout */
 
 .first-section {
+    height: 750px;
+    background:url(images/dark_city.jpg) no-repeat;
+    background-size: cover;
     border-bottom: 5px solid black;
     display: flex;
     flex-direction: column;
@@ -38,19 +41,26 @@ header {
     padding: 50px;
 }
 
-.book-title {    
-    font-size: 30pt;
-    margin-top:0;
+.book-title {   
+    color: red;
+   text-shadow:15px 10px 0 black;
+    font-size: 50pt;
+    font-weight: bold;
+    margin-top:15%;
 }
 
 .amazon-button {
-  color:  dodgerblue;
+  color:  red;
+  font-size: 15pt;
+  font-weight: bold;
   text-decoration-color: black;
   background-color: lightblue;
   border: 2px solid black;
-  padding: 5pt;
-  border-radius: 15%;
+  padding: 15pt;
+  border-radius: 30%;
 }
+
+/* 2nd Section Style Layout */
 
 .synopsis-title {
   color: black;
@@ -62,7 +72,6 @@ header {
 
 .second-section {
   display: flex;
-  justify-content: space-around;
   border-bottom: 5px solid black;
   padding: 35px;
 }
@@ -72,6 +81,41 @@ header {
   font-weight: bold;
   font-size: larger;
 }
+
+/* 3rd Section Style Layout */
+
+.about-mark {
+  text-align: right;
+  margin-right: 30%;
+  margin-top: 5%;
+}
+
+.third-section {
+  display: flex;
+  border-bottom: 5px solid black;
+  padding: 35px;
+}
+
+.profile-image {
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+.social-links {
+  display: flex;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
