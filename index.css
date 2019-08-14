@@ -105,6 +105,16 @@ header {
 .third-section .left {
   margin-right: 5%;
 }
+.author-interview{
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.book-reviews {
+  font-weight: bolder;
+  font-size: larger;
+}
+
 
 .social-links {
   display: flex;
