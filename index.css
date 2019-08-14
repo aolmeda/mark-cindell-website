@@ -83,6 +83,21 @@ header {
   font-size: larger;
 }
 
+.second-section .amazon-second-button {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  font-size: 15pt;
+  font-weight: bold;
+  text-align: center;
+  text-decoration-color: black;
+  background-color: lightblue;
+  border: 2px solid black;
+  padding: 5pt;
+  border-radius: 20%;
+  
+}
+
 /* 3rd Section Style Layout */
 
 .third-section {
